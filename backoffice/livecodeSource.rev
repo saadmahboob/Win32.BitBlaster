@@ -1,4 +1,4 @@
-n startUp
+on startUp
    global origPath
    put the defaultFolder into origPath
    centerThisStack
