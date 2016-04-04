@@ -1,7 +1,5 @@
 ## Analysis and Modification of Win32.CoinStealer
 
---- note to self, this needs to be updated to include bitblaster code
-
 ### Introduction
 
 Trojan.Win32.CoinStealer.i and Trojan.OSX.Coinstealer.a are Bitcoin wallet stealing trojans that appear to be a desktop interface to MtGox, the world's former largest Bitcoin exchange. They originated in a [torrent](https://thepiratebay.se/torrent/9732163/2014_Mt._Gox_Leak) containing stolen data from the site. It wasn't long until forum posts appeared by curious downloaders who discovered the wallet stealing capability of the executables. 
